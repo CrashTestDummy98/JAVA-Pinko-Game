@@ -1,0 +1,22 @@
+package alloc;
+
+/**
+ * A Block of memory has a starting address and 
+ * a size.
+ * @author Shane Tomasello
+ * @version Dec 9, 2020
+ */
+class Block {
+	int start;
+	int size;
+	
+	Block(int start, int size) {
+		this.start = start;
+		this.size = size;
+	}
+	
+	public String toString() {
+		return "(" + start + "." + size + ")";
+	}
+
+}
